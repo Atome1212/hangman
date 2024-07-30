@@ -24,20 +24,20 @@ def main():
     """ 
 
     clear_screen()
-    hungman = Hungman("./Data/config.csv")
+    Hangman = Hangman("./Data/config.csv")
     
-    hungman.display_hungman()
-    goodPrint(f"{hungman.correctly_guessed_letters}")
+    Hangman.display_Hangman()
+    goodPrint(f"{Hangman.correctly_guessed_letters}")
     
     
-    while hungman.start_game():
+    while Hangman.start_game():
         clear_screen()
 
-        hungman.display_hungman()
-        goodPrint(f"{hungman.correctly_guessed_letters}")
-        print(f"Wrong letters : {hungman.wrongly_guessed_letters}")
+        Hangman.display_Hangman()
+        goodPrint(f"{Hangman.correctly_guessed_letters}")
+        print(f"Wrong letters : {Hangman.wrongly_guessed_letters}")
 
-        print(str(hungman.lives) + " " + ("lives" if hungman.lives > 1 else "life") + " " + "left")
+        print(str(Hangman.lives) + " " + ("lives" if Hangman.lives > 1 else "life") + " " + "left")
     
 
 if __name__ == "__main__":
