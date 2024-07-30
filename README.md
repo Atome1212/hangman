@@ -56,17 +56,6 @@ The `Hangman` class encapsulates the functionality and state of the Hangman game
 4. The game continues until the player either guesses the word or runs out of lives.
 5. The game displays the hangman state and the correctly guessed letters after each guess.
 
-## Example Configuration File
-
-`config.csv`:
-```
-python,
-development,
-programming,
-hangman,
-openai
-```
-
 ## Conclusion
 
 This Hangman game provides a simple yet interactive way to enjoy the classic word-guessing game. It can be customized with different words via a configuration file and includes various features to enhance the gameplay experience.
