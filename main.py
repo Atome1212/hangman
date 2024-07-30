@@ -1,4 +1,4 @@
-from Utils import Hungman
+from Utils import Hangman
 import os
 import platform
 
