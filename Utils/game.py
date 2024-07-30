@@ -2,14 +2,14 @@ from typing import List
 from random import choice
 import time
 
-class Hungman:
+class Hangman:
     """
-    Class representing the Hungman game.
+    Class representing the Hangman game.
     """
 
     def __init__(self, link:str|bool):
         """
-        Constructor of the class Hungman.
+        Constructor of the class Hangman.
 
         :param lives: The number of lives the player starts with.
         """
@@ -166,9 +166,9 @@ class Hungman:
             self.play()
             return True
         
-    def display_hungman(self) -> None:
+    def display_hangman(self) -> None:
         """
-        Method display the hungman
+        Method display the hangman
         """
         print(self.stages[self.lives])
 
