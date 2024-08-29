@@ -84,6 +84,7 @@ This Hangman game provides a simple yet interactive way to enjoy the classic wor
 ## 🌳 Project Tree
 
 ```
+/hangman
 ├── Data
 │   └── config.csv
 ├── Draft
