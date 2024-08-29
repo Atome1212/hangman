@@ -1,7 +1,18 @@
 
-# Hangman Game README
+# 🎮 Hangman Game README
 
 ![Hangman Game Demo](https://mgsrizqi.com/my-games/hangmangame/sprites/7.gif)
+
+## 📑 Table of Contents
+1. [Introduction](#introduction)
+2. [Class: Hangman](#class-hangman)
+   - [Attributes](#attributes)
+   - [Methods](#methods)
+3. [Additional Functions](#additional-functions)
+4. [How to Run the Game](#how-to-run-the-game)
+5. [Game Flow](#game-flow)
+6. [Conclusion](#conclusion)
+7. [Project Tree](#project-tree)
 
 ## Introduction
 
@@ -9,9 +20,9 @@ This document provides an overview of the Hangman game implemented in Python. Th
 
 ## Class: Hangman
 
-The `Hangman` class encapsulates the functionality and state of the Hangman game. 
+The `Hangman` class encapsulates the functionality and state of the Hangman game.
 
-### Attributes
+### 📝 Attributes
 
 - `stages`: A list of strings representing the hangman stages as the player makes incorrect guesses.
 - `possible_words`: A list of possible words to be guessed. By default, it contains a preset list of words, but it can be initialized with words from a configuration file.
@@ -22,7 +33,7 @@ The `Hangman` class encapsulates the functionality and state of the Hangman game
 - `turn_count`: The number of turns taken by the player.
 - `error_count`: The number of incorrect guesses made by the player.
 
-### Methods
+### 🔍 Methods
 
 - `__init__(self, link: str | bool)`: Initializes the game. If `link` is `True`, it loads words from the specified configuration file.
 - `get_word_to_find(self) -> str`: Returns the word to find as a string.
@@ -33,22 +44,22 @@ The `Hangman` class encapsulates the functionality and state of the Hangman game
 - `game_over(self) -> None`: Called when the game is over, prints a game over message.
 - `well_played(self) -> None`: Called when the player guesses the word, prints a congratulatory message.
 
-## Additional Functions
+## 🛠️ Additional Functions
 
 - `goodPrint(myStr: str)`: Prints a string with a border.
 - `main()`: The main function that handles the game loop, initializes the `Hangman` class, and manages the game flow.
 
-## How to Run
+## 🖥️ How to Run the Game
 
 1. Ensure you have a Python environment set up.
 2. Place the script in a directory.
-3. Ensure you have a configuration file `config.csv` in the `./Data/` directory, if you want to initialize the game with specific words. The file should contain words separated by commas.
+3. Ensure you have a configuration file `config.csv` in the `./Data/` directory if you want to initialize the game with specific words. The file should contain words separated by commas.
 4. Run the script using the command:
    ```bash
    python hangman.py
    ```
 
-## Game Flow
+## 🔄 Game Flow
 
 1. The game initializes and chooses a random word from the list of possible words.
 2. The player is prompted to guess a letter.
@@ -56,6 +67,23 @@ The `Hangman` class encapsulates the functionality and state of the Hangman game
 4. The game continues until the player either guesses the word or runs out of lives.
 5. The game displays the hangman state and the correctly guessed letters after each guess.
 
-## Conclusion
+## 🏁 Conclusion
 
 This Hangman game provides a simple yet interactive way to enjoy the classic word-guessing game. It can be customized with different words via a configuration file and includes various features to enhance the gameplay experience.
+
+## 🌳 Project Tree
+
+```
+/hangman-game
+│
+├── hangman.py
+├── README.md
+├── /Data
+│   └── config.csv
+├── /sprites
+│   └── 7.gif
+└── /tests
+    └── test_hangman.py
+```
+
+This tree provides an overview of the project structure, showing where each file and directory is located.
