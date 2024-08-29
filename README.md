@@ -3,6 +3,9 @@
 
 ![Hangman Game Demo](https://mgsrizqi.com/my-games/hangmangame/sprites/7.gif)
 
+## Language
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org)
+
 ## 📑 Table of Contents
 1. [Introduction](#introduction)
 2. [Class: Hangman](#class-hangman)
@@ -70,6 +73,10 @@ The `Hangman` class encapsulates the functionality and state of the Hangman game
 ## 🏁 Conclusion
 
 This Hangman game provides a simple yet interactive way to enjoy the classic word-guessing game. It can be customized with different words via a configuration file and includes various features to enhance the gameplay experience.
+
+## 👥 Author
+
+**👷‍♂️ [Atome1212](https://github.com/Atome1212)**: Data Engineer
 
 ## 🌳 Project Tree
 
