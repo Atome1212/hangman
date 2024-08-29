@@ -1,7 +1,10 @@
 
 # 🎮 Hangman Game README
-
-![Hangman Game Demo](https://mgsrizqi.com/my-games/hangmangame/sprites/7.gif)
+<p align="center">
+  <a href="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1">
+      <img src="[https://media.wired.com/photos/641337bd5e3ab3be4fe3e789/master/w_1600%2Cc_limit/sql_normal.gif](https://mgsrizqi.com/my-games/hangmangame/sprites/7.gif)" alt="Click me !" width="500" />
+  </a>
+</p>
 
 ## 🔣 Language
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org)
