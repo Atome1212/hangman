@@ -2,7 +2,7 @@
 # 🎮 Hangman Game README
 <p align="center">
   <a href="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1">
-      <img src="https://mgsrizqi.com/my-games/hangmangame/sprites/7.gif" alt="Click me !" width="500" />
+      <img src="https://mgsrizqi.com/my-games/hangmangame/sprites/7.gif" alt="Click me !" width="300" />
   </a>
 </p>
 
