@@ -74,16 +74,20 @@ This Hangman game provides a simple yet interactive way to enjoy the classic wor
 ## 🌳 Project Tree
 
 ```
-/hangman-game
-│
-├── hangman.py
-├── README.md
-├── /Data
+├── Data
 │   └── config.csv
-├── /sprites
-│   └── 7.gif
-└── /tests
-    └── test_hangman.py
+├── Draft
+│   └── draft.py
+├── README.md
+├── Utils
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-310.pyc
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── game.cpython-310.pyc
+│   │   └── game.cpython-311.pyc
+│   └── game.py
+└── main.py
 ```
 
 This tree provides an overview of the project structure, showing where each file and directory is located.
